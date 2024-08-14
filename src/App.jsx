@@ -1,8 +1,9 @@
+import {Header} from './components'
+
 const App = () => {
   return (
     <div className="font-oswald">
-      <h1>Hello, world!</h1>
-      <p>This is my first React app.</p>
+      <Header />
     </div>
   )
 }

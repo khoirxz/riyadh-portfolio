@@ -8,9 +8,12 @@ export default {
     extend: {
       fontFamily:{
         "oswald": ["Oswald", "sans-serif"],
+        "robotoCondensed": ["Roboto Condensed", "sans-serif"]
       }
     },
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/typography'),
+  ],
 }
 
