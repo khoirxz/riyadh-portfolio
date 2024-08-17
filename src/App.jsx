@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import Intro from "./section/Intro";
 import About from "./section/About";
+import Experience from "./section/Experience";
 import Footer from "./section/Footer";
 
 const App = () => {
@@ -48,6 +49,7 @@ const App = () => {
     <div className="font-oswald text-zinc-900 dark:text-white antialiased bg-white dark:bg-zinc-900">
       <Intro handleTheme={handleTheme} />
       <About />
+      <Experience />
       <Footer />
     </div>
   );
