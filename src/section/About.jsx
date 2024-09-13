@@ -5,9 +5,11 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 import gsap from "gsap";
 
 const textAbout = [
-  "Seorang Spesialis SEO dan Periklanan dengan pengalaman satu tahun",
-  "lebih yang berorientasi pada pencapaian strategi. Mempunyai pengalaman",
-  "dalam memimpin tim pemasaran dan periklanan pada platform Meta, TikTok Shop,",
+  "SEO and Advertising Specialist with experience in leading",
+  "the digital marketing and advertising businesses",
+  "I am a team of a local clothing brand company",
+  "who has expertise in analysis, marketing, coding and is proficient in",
+  "interpersonal interaction as well as public speaking.",
 ];
 
 const anchor = {
@@ -67,7 +69,7 @@ const AnimateText = ({ children }) => {
         trigger: text.current,
         scrub: true,
         start: "0px bottom",
-        end: "bottom+=500px bottom",
+        end: "bottom+=80px bottom",
       },
       opacity: 0,
       left: "-200px",

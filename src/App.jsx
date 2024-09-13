@@ -47,7 +47,7 @@ const App = () => {
   };
   return (
     <div className="font-oswald text-zinc-900 dark:text-white antialiased bg-white dark:bg-zinc-900">
-      <Intro handleTheme={handleTheme} />
+      <Intro handleTheme={handleTheme} theme={theme} />
       <About />
       <Experience />
       <Footer />
